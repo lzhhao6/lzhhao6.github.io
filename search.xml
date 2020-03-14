@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>XenForo论坛</title>
+      <link href="/MinePHP/2020/03/13/xenforo/"/>
+      <url>/MinePHP/2020/03/13/xenforo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是XenForo"><a href="#什么是XenForo" class="headerlink" title="什么是XenForo"></a>什么是XenForo</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PHP </tag>
+            
+            <tag> 论坛 </tag>
+            
+            <tag> Xenforo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PHP后台开发框架 - Fastadmin</title>
+      <link href="/MinePHP/2020/03/13/aboutfastadmin/"/>
+      <url>/MinePHP/2020/03/13/aboutfastadmin/</url>
+      
+        <content type="html"><![CDATA[<h1 id="是什么？"><a href="#是什么？" class="headerlink" title="是什么？"></a>是什么？</h1><blockquote><p>FastAdmin是一款基于ThinkPHP5+Bootstrap的极速后台开发框架。  </p></blockquote><pre><code>特性  </code></pre><ol><li><p>它有基于Auth验证的权限管理系统   </p><ul><li>支持无限级父子级权限继承，父级管理员可以任意增删改子级管理员和权限设置    </li><li>支持单管理员多角色    </li><li>支持管理子级数据或个人数据    </li></ul></li><li><p>强大的一键生成功能    </p><ul><li>一键生成CRUD,包括控制器、模型、视图、JS、语言包、菜单、回收站等    </li><li>一键压缩打包JS和CSS文件，一键CDN静态资源部署    </li><li>一键生成控制器菜单和规则    </li><li>一键生成API接口文档    </li></ul></li><li><p>完善的前端功能组件开发    </p></li><li><p>基于AdminLTE二次开发    </p></li><li><p>基于Bootstrap开发，自适应手机、平板、PC    </p></li><li><p>基于RequireJS进行JS模块管理，按需加载    </p></li><li><p>基于Less进行样式开发    </p></li><li><p>基于Bower进行前端组件包管理    </p></li><li><p>强大的插件扩展功能，在线安装卸载升级插件    </p></li><li><p>通用的会员模块和API模块    </p></li><li><p>共用同一账号体系的Web端会员中心权限验证和API接口会员权限验证    </p></li><li><p>二级域名支持部署，域名也支持绑定到插件    </p></li><li><p>多语言支持，服务端及客户端支持    </p></li><li><p>强大的第三方模块支持(CMS、博客、知识付费问答、在线投票系统、在线客服、移动端商城)    </p></li><li><p>支持CMS、博客、知识付费问答无缝整合Xunsearch全文搜索   </p></li><li><p>第三方小程序支持(预订小程序、问答小程序、活动报名小程序、商城小程序、博客小程序)     </p></li><li><p>整合第三方短信接口(阿里云、腾讯云短信)   </p></li><li><p>无缝整合第三方云存储(七牛、阿里云OSS、又拍云)功能     </p></li><li><p>第三方富文本编辑器支持(Summernote、Kindeditor、百度编辑器)    </p></li><li><p>第三方登录(QQ、微信、微博)整合    </p></li><li><p>第三方支付(微信、支付宝)无缝整合，微信支持PC端扫码支付    </p></li><li><p>丰富的插件应用市场    </p></li></ol><h1 id="为什么？"><a href="#为什么？" class="headerlink" title="为什么？"></a>为什么？</h1><ol><li>强大的一键生成功能        </li><li>多语言支持，服务端及客户端支持    </li><li>完善的前端功能组件开发    </li><li>丰富的插件应用市场     </li><li>第三方登录(QQ、微信、微博)整合    </li></ol><h1 id="如何安装开发环境？"><a href="#如何安装开发环境？" class="headerlink" title="如何安装开发环境？"></a>如何安装开发环境？</h1><pre><code>[官方开发环境配置教程视频](https://www.fastadmin.net/video/environment.html/ &quot;点我查看&quot;)    </code></pre><h2 id="Windows（小皮面板）"><a href="#Windows（小皮面板）" class="headerlink" title="Windows（小皮面板）"></a>Windows（小皮面板）</h2><blockquote><p>小皮面板，原PHPSTUDY<br>官网：<a href="https://www.xp.cn/" target="_blank" rel="noopener">https://www.xp.cn/</a><br>官方使用教程：<a href="https://www.xp.cn/using.html" target="_blank" rel="noopener">https://www.xp.cn/using.html</a>    </p></blockquote><h2 id="Linux（小皮面板、宝塔）"><a href="#Linux（小皮面板、宝塔）" class="headerlink" title="Linux（小皮面板、宝塔）"></a>Linux（小皮面板、宝塔）</h2><h3 id="小皮面板"><a href="#小皮面板" class="headerlink" title="小皮面板"></a>小皮面板</h3><p>官网：<a href="https://www.xp.cn/" target="_blank" rel="noopener">https://www.xp.cn/</a><br>官方使用教程：<a href="https://www.xp.cn/using.html" target="_blank" rel="noopener">https://www.xp.cn/using.html</a><br>Centos安装脚本 <code>yum install -y wget &amp;&amp; wget -O install.sh https://download.xp.cn/install.sh &amp;&amp; sh install.sh</code>    </p><p>Ubuntu安装脚本 <code>wget -O install.sh https://download.xp.cn/install.sh &amp;&amp; sudo bash install.sh</code>    </p><p>Deepin安装脚本 <code>wget -O install.sh https://download.xp.cn/install.sh &amp;&amp; sudo bash install.sh</code>    </p><p>Debian安装脚本 <code>wget -O install.sh https://download.xp.cn/install.sh &amp;&amp; sudo bash install.sh</code>    </p><h3 id="宝塔（推荐用于云主机）"><a href="#宝塔（推荐用于云主机）" class="headerlink" title="宝塔（推荐用于云主机）"></a>宝塔（推荐用于云主机）</h3><p>官网：<a href="https://www.bt.cn/" target="_blank" rel="noopener">https://www.bt.cn/</a>    </p><p>安装：<a href="https://www.bt.cn/bbs/thread-19376-1-1.html" target="_blank" rel="noopener">https://www.bt.cn/bbs/thread-19376-1-1.html</a>    </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+            <tag> fastadmin </tag>
+            
+            <tag> 开发框架 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最新亿乐社区3.0下单系统源码</title>
+      <link href="/MinePHP/2020/03/13/%E4%BA%BF%E4%B9%90%E7%A4%BE%E5%8C%BA3-0%E6%BA%90%E7%A0%81/"/>
+      <url>/MinePHP/2020/03/13/%E4%BA%BF%E4%B9%90%E7%A4%BE%E5%8C%BA3-0%E6%BA%90%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<h1 id="源码介绍"><a href="#源码介绍" class="headerlink" title="源码介绍"></a>源码介绍</h1><blockquote><p>PHP源码-亿乐社区3.0源码分享。</p></blockquote><hr><p>前一段时间在百度上找的，虽然是不好找，但还是分享出来。已经过测试，源码可用。</p><p>可正常开通分站、主站，主站之间支持对接商品，后台分为分站后台、主站后台、还有一个总控后台。</p><h1 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h1><blockquote><p>做人不做伸手党，评论一下行不行？？</p></blockquote><p><a href="http://minephp.oss-cn-shanghai.aliyuncs.com/blog/%E6%96%87%E4%BB%B6/%E4%BA%BF%E4%B9%90%E7%A4%BE%E5%8C%BA3.0.7z/" target="_blank" rel="noopener" title="亿乐社区3.0">点我下载</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> PHP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PHP </tag>
+            
+            <tag> 源码 </tag>
+            
+            <tag> 亿乐社区 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
